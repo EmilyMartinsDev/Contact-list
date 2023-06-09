@@ -45,7 +45,7 @@ const contatoSlice = createSlice({
           id: ultimo ? ultimo.id + 1 : 1,
           name: action.payload.name,
           email: action.payload.email,
-          tel: action.payload.email
+          tel: action.payload.tel
         })
       }
     },
